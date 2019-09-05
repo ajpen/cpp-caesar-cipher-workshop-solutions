@@ -1,0 +1,10 @@
+//
+// Created by anfernee on 9/5/19.
+//
+
+#ifndef CPP_CAESAR_CIPHER_WORKSHOP_CIPHERSTRING_H
+#define CPP_CAESAR_CIPHER_WORKSHOP_CIPHERSTRING_H
+
+#include "caesar.h"
+
+#endif //CPP_CAESAR_CIPHER_WORKSHOP_CIPHERSTRING_H
