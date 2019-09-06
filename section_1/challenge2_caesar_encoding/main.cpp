@@ -18,13 +18,13 @@ int main(){
 
     std::cout << "Test #2 Passed." << std::endl;
 
-    assert(("Test #3 Failed! Expected encodeChar('f', 'f') to return 'l', but it didn't! :(",
-            encodeChar('f', 'f') == 'l'));
+    assert(("Test #3 Failed! Expected encodeChar('f', 'g') to return 'l', but it didn't! :(",
+            encodeChar('f', 'g') == 'l'));
 
     std::cout << "Test #3 Passed." << std::endl;
 
-    assert(("Test #4 Failed! Expected encodeChar('F', 'f') to return 'L', but it didn't! :(",
-            encodeChar('F', 'f') == 'L'));
+    assert(("Test #4 Failed! Expected encodeChar('F', 'g') to return 'L', but it didn't! :(",
+            encodeChar('F', 'g') == 'L'));
 
     std::cout << "Test #4 Passed." << std::endl;
 
