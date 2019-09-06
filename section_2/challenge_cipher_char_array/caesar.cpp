@@ -3,7 +3,7 @@
 //
 
 #include "caesar.h"
-
+#include "alphabet.h"
 
 char encodeChar(char letter, char key){
     /*
@@ -30,6 +30,7 @@ char encodeChar(char letter, char key){
         return letter;
     }
 
-    // Add your code here
+    // replace the line below with your solution
+    return letter;
 
 }

@@ -18,5 +18,6 @@ int characterToAlphabeticalIndex(char c){
         return -1;
     }
 
-    // add your solution here
+    // replace the line below with your solution
+    return -1;
 }

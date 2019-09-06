@@ -7,6 +7,7 @@
 
 #include <cstdlib>
 #include <iostream>
+#include <cstring>
 
 void assert(const char* message, bool expression_result){
     if (!expression_result){
@@ -15,7 +16,7 @@ void assert(const char* message, bool expression_result){
     }
 }
 
-char* expectedOutput1 = "Eptle Divs Fvezs Glevpmi";
-char* expectedOutput2 = "Xlmw AeW Jyr, rs?";
+char expectedOutput1[] = "Eptle Divs Fvezs Glevpmi";
+char expectedOutput2[] = "Xlmw AeW Jyr, rs?";
 
 #endif //CPP_CAESAR_CIPHER_WORKSHOP_TESTER_H

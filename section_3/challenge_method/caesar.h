@@ -5,7 +5,7 @@
 #ifndef CPP_CAESAR_CIPHER_WORKSHOP_CAESAR_H
 #define CPP_CAESAR_CIPHER_WORKSHOP_CAESAR_H
 
-#include "alphabet.h"
+#include <cctype>
 
 char encodeChar(char letter, char key);
 #endif //CPP_CAESAR_CIPHER_WORKSHOP_CAESAR_H

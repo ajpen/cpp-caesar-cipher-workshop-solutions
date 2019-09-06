@@ -2,7 +2,7 @@
 // Created by anfernee on 9/5/19.
 //
 
-#include "cipherstring.h"
+#include "encrypt.h"
 #include "tester.h"
 
 
@@ -20,14 +20,14 @@ int main(){
 
     encryptString(originalString1, encodedString, cipherKey);
 
-    assert(("Test #1 Failed! Expected encodedString and expectedOutput1 to be the identical, "
+    assert("Test #1 Failed! Expected encodedString and expectedOutput1 to be the identical, "
             "but they're not. expectedOutput looks like this: Eptle Divs Fvezs Glevpmi",
-    strcmp(encodedString, expectedOutput1) == 0));
+    strcmp(encodedString, expectedOutput1) == 0);
 
 
     encryptString(originalString2, encodedString, cipherKey);
 
-    assert(("Test #1 Failed! Expected encodedString and expectedOutput1 to be the identical, "
+    assert("Test #1 Failed! Expected encodedString and expectedOutput1 to be the identical, "
             "but they're not. expectedOutput looks like this: Eptle Divs Fvezs Glevpmi",
-            strcmp(encodedString, expectedOutput2) == 0));
+            strcmp(encodedString, expectedOutput2) == 0);
 }
