@@ -25,10 +25,13 @@ int main(){
             "but they're not. expectedOutput looks like this: Eptle Divs Fvezs Glevpmi",
     strcmp(encodedString1, expectedOutput1) == 0);
 
+    std::cout << "Test #1 Passed." << std::endl;
 
     encryptString(originalString2, encodedString2, cipherKey);
 
     assert("Test #1 Failed! Expected encodedString and expectedOutput1 to be the identical, "
             "but they're not. expectedOutput looks like this: Eptle Divs Fvezs Glevpmi",
             strcmp(encodedString2, expectedOutput2) == 0);
+
+    std::cout << "Test #2 Passed." << std::endl;
 }

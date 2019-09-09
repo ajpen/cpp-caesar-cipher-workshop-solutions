@@ -3,11 +3,29 @@ project(cpp_caesar_cipher_workshop)
 
 set(CMAKE_CXX_STANDARD 14)
 
+add_executable(section_1_lesson1
+        section_1/lesson/main_solution.cpp)
+
+add_executable(section1_challenge1_solution
+        section_1/challenge1_alpha_index_solution/main.cpp
+        section_1/challenge1_alpha_index_solution/alphabet.cpp
+        section_1/challenge1_alpha_index_solution/tester.h
+        section_1/challenge1_alpha_index_solution/alphabet.h)
+
 add_executable(section1_challenge1
         section_1/challenge1_alpha_index/main.cpp
         section_1/challenge1_alpha_index/alphabet.cpp
         section_1/challenge1_alpha_index/tester.h
         section_1/challenge1_alpha_index/alphabet.h)
+
+add_executable(section1_challenge2_solution
+        section_1/challenge2_caesar_encoding_solution/main.cpp
+        section_1/challenge2_caesar_encoding_solution/alphabet.cpp
+        section_1/challenge2_caesar_encoding_solution/tester.h
+        section_1/challenge2_caesar_encoding_solution/caesar.h
+        section_1/challenge2_caesar_encoding_solution/caesar.cpp
+        section_1/challenge2_caesar_encoding_solution/alphabet.h)
+
 
 add_executable(section1_challenge2
         section_1/challenge2_caesar_encoding/main.cpp
@@ -25,6 +43,24 @@ add_executable(section2_challenge1
         section_2/challenge_cipher_char_array/caesar.cpp
         section_2/challenge_cipher_char_array/alphabet.h)
 
+add_executable(section2_challenge1_solution
+        section_2/challenge_cipher_char_array_solution/caesar.cpp
+        section_2/challenge_cipher_char_array_solution/caesar.h
+        section_2/challenge_cipher_char_array_solution/alphabet.cpp
+        section_2/challenge_cipher_char_array_solution/alphabet.h
+        section_2/challenge_cipher_char_array_solution/main.cpp
+        section_2/challenge_cipher_char_array_solution/tester.h
+        )
+
+add_executable(section3_challenge1_solution
+        section_3/challenge_method_solution/main.cpp
+        section_3/challenge_method_solution/alphabet.cpp
+        section_3/challenge_method_solution/tester.h
+        section_3/challenge_method_solution/caesar.h
+        section_3/challenge_method_solution/caesar.cpp
+        section_3/challenge_method_solution/alphabet.h
+        section_3/challenge_method_solution/encrypt.cpp
+        section_3/challenge_method_solution/encrypt.h)
 
 add_executable(section3_challenge1
         section_3/challenge_method/main.cpp
